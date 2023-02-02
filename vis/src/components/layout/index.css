@@ -1,0 +1,233 @@
+#layout {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(240, 239, 239);
+  display: flex;
+  overflow: hidden;
+}
+
+/* 两栏 发现团伙 分析团伙 */
+#identifygroup {
+  height: 100%;
+  flex: 4;
+  /* background-color: white; */
+  display: flex;
+  /* padding-right: 4px; */
+}
+
+#analyzegroup {
+  height: 100%;
+  flex: 2;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 4px;
+}
+
+/* 发现团伙板块的左右两栏 */
+#ileft {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+  /* padding-right: 4px; */
+}
+
+#iright {
+  height: 100%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+  /* padding-left: 4px; */
+}
+
+/* 发现团伙板块 左边栏 */
+#titlebar {
+  width: 100%;
+  flex: 1;
+  /* background-color: white; */
+  /* padding: 20px 20px; */
+
+  font-size: 30px;
+  line-height: 2;
+  text-align: center;
+  font-weight: bolder;
+  user-select: none;
+}
+
+#searchbar {
+  width: 100%;
+  flex: 1;
+  /* background-color: thistle; */
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#overviewic {
+  width: 100%;
+  flex: 6;
+  background-color: white;
+  /* border-radius: 10px; */
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#filteric {
+  width: 100%;
+  flex: 12;
+  margin-top: 4px;
+  background-color: white;
+  /* padding-top: 4px; */
+  /* padding-bottom: 4px; */
+  /* border-radius: 20px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+/* 发现团伙板块 右边栏 */
+#container-mainmap {
+  width: 99.65%;
+  flex: 14;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellowgreen; */
+}
+
+/* #controlmainmap {
+  width: 100%;
+  flex: 1;
+  background-color: wheat;
+  padding-bottom: 4px;
+} */
+
+#mainmap {
+  width: 100%;
+  flex: 14;
+  /* background-color: silver; */
+  /* padding-top: 4px; */
+  /* padding-bottom: 4px; */
+  background-color: #fff;
+  margin-top: 2px;
+  /* margin-bottom: 4px; */
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#container-filter {
+  width: 100%;
+  flex: 8;
+  display: flex;
+}
+
+#nodelinkic {
+  height: 100%;
+  flex: 2;
+  background-color: #fff;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#deleterelation {
+  height: 100%;
+  flex: 1;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+  /* background-color: rgb(215, 214, 209); */
+  /* padding-top: 4px; */
+}
+
+/* 分析团伙板块 */
+#infotable {
+  width: 100%;
+  flex: 2;
+  /* background-color: azure; */
+  /* padding: 0 10; */
+  margin-top: 2px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#container-statistic {
+  width: 100%;
+  flex: 7;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#sta-node {
+  width: 100%;
+  flex: 40;
+  /* background-color: white; */
+}
+
+#divider {
+  width: 100%;
+  flex: 1;
+  background-color: #ddd;
+}
+
+#sta-link {
+  width: 100%;
+  flex: 40;
+  /* background-color: white; */
+}
+
+#asset {
+  width: 100%;
+  flex: 5.02;
+  /* background-color: rgb(220, 213, 226); */
+  /* padding-top: 4px; */
+  /* padding-bottom: 4px; */
+  background-color: white;
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#keypath {
+  width: 100%;
+  flex: 4.98;
+  /* background-color: rgb(220, 213, 226); */
+  /* padding-top: 4px; */
+  /* padding-bottom: 4px; */
+  background-color: white;
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}
+
+#conclusion {
+  width: 100%;
+  flex: 3;
+  background-color: white;
+  /* padding-top: 4px; */
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  border-radius: 5px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 28%);
+}

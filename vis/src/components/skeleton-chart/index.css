@@ -1,0 +1,76 @@
+#skeleton-chart {
+  height: 33vh;
+}
+
+.lasso path {
+  stroke: rgb(80, 80, 80);
+  stroke-width: 2px;
+}
+
+.lasso .drawn {
+  fill-opacity: 0.05;
+}
+
+.lasso .loop_close {
+  fill: none;
+  stroke-dasharray: 4, 4;
+}
+
+.lasso .origin {
+  fill: #3399ff;
+  fill-opacity: 0.5;
+}
+
+.not_possible {
+  fill: rgb(200, 200, 200);
+}
+
+.possible {
+  fill: #fe919b;
+}
+
+.selected {
+  fill: #bcd981;
+}
+
+.d3-context-menu {
+  position: absolute;
+  min-width: 100px;
+  max-width: auto;
+  height: auto;
+  border-radius: 7px;
+  padding-top: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  cursor: pointer;
+}
+
+.d3-context-menu ul {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.d3-context-menu li {
+  padding-top: 2px;
+  padding-right: 5px;
+}
+
+.d3-context-menu li:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.skeleton-toolTip {
+  position: absolute;
+  visibility: hidden;
+  min-width: 30px;
+  max-width: auto;
+  border-radius: 4px;
+  height: auto;
+  line-height: 2;
+  background: rgba(255, 250, 250, 0.8);
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: left;
+  z-index: 1000;
+}

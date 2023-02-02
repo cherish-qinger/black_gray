@@ -1,0 +1,125 @@
+[
+  {
+    "selector": "edge",
+    "style": {
+      "opacity": 0.8
+    }
+  },
+  {
+    "selector": "node[type=\"Cert\"]",
+    "style": {
+      "background-color": "#ff756a",
+      "shape": "rectangle",
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "selector": "node[type=\"Whois_Name\"]",
+    "style": {
+      "background-color": "#f67f02",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "node[type=\"Whois_Phone\"]",
+    "style": {
+      "background-color": "#f67f02",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "node[type=\"Whois_Email\"]",
+    "style": {
+      "background-color": "#f67f02",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "node[type=\"IP\"]",
+    "style": {
+      "background-color": "#33a02c",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "node[type=\"IP_C\"]",
+    "style": {
+      "background-color": "#7fc97f",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "node[type=\"ASN\"]",
+    "style": {
+      "background-color": "#f9bf6f",
+      "shape": "rectangle"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_cert\"]",
+    "style": {
+      "line-color": "#ff756a"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_subdomain\"]",
+    "style": {
+      "line-color": "#34B3F1"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_request_jump\"]",
+    "style": {
+      "line-color": "#242F9B"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_dns_a\"]",
+    "style": {
+      "line-color": "#33a02c"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_whois_name\"]",
+    "style": {
+      "line-color": "#f67f02"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_whois_email\"]",
+    "style": {
+      "line-color": "#f67f02"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_whois_phone\"]",
+    "style": {
+      "line-color": "#f67f02"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_cname\"]",
+    "style": {
+      "line-color": "#BAABDA"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_asn\"]",
+    "style": {
+      "line-color": "#f9bf6f" 
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_cidr\"]",
+    "style": {
+      "line-color": "#7fc97f"
+    }
+  },
+  {
+    "selector": "edge[relation=\"r_cert_chain\"]",
+    "style": {
+      "line-color": "#f9b4ae"
+    }
+  }
+]

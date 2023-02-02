@@ -1,0 +1,27 @@
+#combine-table-node {
+  display: flex;
+}
+
+#combine-table-bc-node {
+  height: 100%;
+  flex: 1;
+}
+
+#combine-table-dl-node {
+  height: 100%;
+  flex: 2;
+}
+
+#combine-table-link {
+  display: flex;
+}
+
+#combine-table-bc-link {
+  height: 100%;
+  flex: 1;
+}
+
+#combine-table-dl-link {
+  height: 100%;
+  flex: 2;
+}

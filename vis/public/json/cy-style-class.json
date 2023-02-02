@@ -1,0 +1,96 @@
+[
+  {
+    "selector": "node.stackhighlightNode",
+    "style": {
+      "border-color": "#0000ff",
+      "border-width": "20px"
+    }
+  },
+  {
+    "selector": "edge.arrow",
+    "style": {
+      "target-arrow-shape": "vee",
+      "target-arrow-color": "#000",
+      "curve-style": "straight",
+      "width": 6
+    }
+  },
+  {
+    "selector": "node.tablehighlightNode",
+    "style": {
+      "border-color": "#0000ff",
+      "border-width": "20px"
+    }
+  },
+  {
+    "selector": "edge.tablehighlightLink",
+    "style": {
+      "line-style": "dashed",
+      "width": 6
+    }
+  },
+  {
+    "selector": "node.semitransp",
+    "style": { "opacity": "0.5" }
+  },
+  {
+    "selector": "node.isCore",
+    "style": {
+      "border-color": "#ad0c1b",
+      "border-width": "10px"
+    }
+  },
+  {
+    "selector": "node.isDelivery",
+    "style": {
+      "border-style": "dashed",
+      "border-color": "#ad0c1b",
+      "border-width": "10px"
+    }
+  },
+  {
+    "selector": "edge.isCore",
+    "style": {
+      "line-color": "#ad0c1b",
+      "opacity": "1"
+    }
+  },
+  {
+    "selector": "edge.semitransp",
+    "style": { "opacity": "0.2" }
+  },
+  {
+    "selector": "node:selected",
+    "style": {
+      "border-color": "#0000ff",
+      "border-width": "4px"
+    }
+  },
+  {
+    "selector": "edge:selected",
+    "style": {
+      "line-color": "yellow"
+    }
+  },
+  {
+    "selector": "node.InIClink",
+    "style": {
+      "border-color": "#0000ff",
+      "border-width": "3px"
+    }
+  },
+  {
+    "selector": "edge.InIClink",
+    "style": {
+      "line-color": "#0000ff",
+      "border-width": "3px"
+    }
+  },
+  {
+    "selector": "node.start_end",
+    "style": {
+      "border-color": "#ff00ff",
+      "border-width": "3px"
+    }
+  }
+]
