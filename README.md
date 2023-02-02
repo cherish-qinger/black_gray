@@ -1,2 +1,2 @@
-# cvis2022
-ChinaVis 2022 Challenge
+# 黑灰产业
+中国计算机设计大赛
